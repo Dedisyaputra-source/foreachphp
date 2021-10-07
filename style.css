@@ -1,0 +1,40 @@
+
+.navbar{
+    background-color: lightcyan;
+}
+.navbar .container .navbar-brand img{
+    width: 100px;
+}
+
+.image-slider{
+    max-height: 86vh;
+    object-fit: cover;
+}
+.card{
+    min-height: 160px;
+    border: 1px solid lightseagreen;
+}
+
+.card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .card-body .icon{
+    font-size: 33px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.konten-container .row .col .card{
+    max-height: 240px;
+}
+
+.konten-container .row .col .card img{
+    object-fit: cover;
+}
